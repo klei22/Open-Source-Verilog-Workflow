@@ -1,0 +1,9 @@
+obj_dir/
+oss-cad-suite/
+intermediates/
+logs/
+build/
+stats/
+sim_build/
+
+*.vcd
