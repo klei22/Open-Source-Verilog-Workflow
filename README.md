@@ -63,5 +63,5 @@ See the Makefile for additional targets.
 
 ## License
 
-This repo is under the Apache-2.0 license.
+The license of this repo is [Apache-2.0](./LICENSE).
 
