@@ -61,7 +61,7 @@ $(OUT_SIM)/$(PROJECT_NAME): sim/$(PROJECT_NAME).cpp obj_dir/V$(PROJECT_NAME)__AL
 		$(VINC)/verilated.cpp \
 		$(VINC)/verilated_vcd_c.cpp \
 		$(VINC)/verilated_threads.cpp \
-		sim/$(PROJECT_NAME).cpp obj_dir/V$(PROJECT_NAME)__ALL.a \
+		sim/$(PROJECT_NAME).cpp -lpthread obj_dir/V$(PROJECT_NAME)__ALL.a \
 		-o $(OUT_SIM)/$(PROJECT_NAME)
 
 $(OUT_SIM)/$(PROJECT_NAME).vcd: $(OUT_SIM)/$(PROJECT_NAME)
