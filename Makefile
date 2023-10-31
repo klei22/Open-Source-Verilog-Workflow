@@ -13,7 +13,7 @@ SEED = 1
 ARCHIVE=oss-cad-suite.tgz
 OSS_CAD_SUITE = oss-cad-suite
 VINC := $(OSS_CAD_SUITE)/share/verilator/include
-OSS_CAD_SUITE_URL=https://github.com/YosysHQ/oss-cad-suite-build/releases/download/2023-10-17/oss-cad-suite-linux-x64-20231017.tgz
+OSS_CAD_SUITE_URL=https://github.com/YosysHQ/oss-cad-suite-build/releases/download/2023-10-31/oss-cad-suite-linux-x64-20231031.tgz
 
 # List of all Directories (useful for initalization)
 DIRS = $(OUT) $(OUT_SIM) $(ARTIFACTS) $(LOGS) $(STATS_DIR)
